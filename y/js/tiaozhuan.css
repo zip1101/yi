@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+.main{
+	width:700px;
+	border:1px solid red;
+	margin:0 auto;
+}
+.main .floor{
+	height:400px;
+	/*color: #fff;*/
+	line-height: 400px;
+	text-align: center;
+	font-size:60px;
+}
+.main .red{
+	background: red;
+}
+.blue{
+	background: blue;
+}
+.green{
+    background: green;
+}           
+.purple{
+    background: purple;
+}
+.pink{
+    background: pink;
+}
+.yellow{
+    background-color: yellow;
+}
+.floorMenu{
+	width:40px;
+	border:1px solid black;
+	border-bottom: none;
+	position: fixed;
+	top:40px;
+	left:40px;
+}
+.floorMenu li{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid black;
+    text-align: center;
+}
+.floorMenu li.active{
+    background: black;
+   /* color: white;*/
+}
